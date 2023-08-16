@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark & Light Mode</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="theme-switch-container">
+        <span id="toggle-icon">
+            <span class="toggle-text">Day Mode</span>
+            <i class='bx bxs-sun'></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <div class="title-group">
+            <h1>Watcharawit</h1>
+            <h2>Web Development & Programming</h2>
+        </div>
+    </section>
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="image-container">
+                <h2>Currency Exchange</h2>
+                <a href="https://prehmieren.github.io/Currency-Exchange/" target="_blank"> <img src="currency_light.svg"
+                        id="img1"></a>
+            </div>
+            <div class="image-container">
+                <h2>Cash Book</h2>
+                <a href="https://prehmieren.github.io/Cash-Book/" target="_blank"><img src="saving_light.svg"
+                        id="img2"></a>
+            </div>
+            <div class="image-container">
+                <h2>Weather Report</h2>
+                <a href="https://prehmieren.github.io/Weather-Report/" target="_blank"><img src="weather_light.svg"
+                        id="img3"></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/watcharawit-soongnart/" target="_blank"><i
+                    class='bx bxl-linkedin-square'></i></a>
+            <a href="https://www.facebook.com/salimsnotallowedhere/" target="_blank"><i
+                    class='bx bxl-facebook-square'></i></a>
+            <a href="https://github.com/prehmieren" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/tobarami_899/" target="_blank"> <i class='bx bxl-instagram'></i></a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
