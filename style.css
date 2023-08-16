@@ -193,7 +193,7 @@ img {
     }
 }
 
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+@media only screen and (min-device-width : 393px) and (max-device-width : 736px) and (orientation : portrait) {
     h1 {
         font-size: 45px;
     }
